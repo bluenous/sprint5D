@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "P001",
+      "name": "PORTÁTIL LENOVO",
+      "description": "PC ESTUDIANTE BASIC",
+      "detalles": "INTEL CORE I3, RAM 4 GB, DISCO DURO 1 TB HDD, S145-14IIL, 14 in, GRIS",
+      "price": 1499000,
+      "qty": 10,
+      "img": "https://panamericana.vteximg.com.br/arquivos/ids/370054-1600-1600/194552520458-1.jpg?v=637414220748400000"
+    },
+    {
+      "id": 2,
+      "code": "P002",
+      "name": "PORTÁTIL ASUS VIVOBOOK",
+      "description": "PC DISEÑADOR GRÁFICO",
+      "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD, X513EA-BQ638T, 15.6 in, NEGRO",
+      "price": "2999000",
+      "qty": 10,
+      "img": "https://panamericana.vteximg.com.br/arquivos/ids/389877-1600-1600/portatil-asus-vivobook-intel-core-i5-ram-12-gb-512-gb-ssd-x513ea-bq638t-15-negro-1-4711081090694.jpg?v=637547335702870000"
+    },
+    {
+      "id": 3,
+      "code": "P003",
+      "name": "HP PAVILION",
+      "description": "PC GAMER-15 DK1506LA",
+      "detalles": "INTEL® CORE™ I5-10300H 8GB 512GB SSD 15 pulgadas",
+      "price": 3629000,
+      "qty": 10,
+      "img": "https://panamericana.vteximg.com.br/arquivos/ids/402986-1600-1600/portatil-hp-pavilion-gaming-intel-core-i5-ram-8gb-512gb-ssd-15-dk1506la-15-6-fhd-negro-196068141547.jpg?v=637653368737000000"
+    },
+    {
+      "id": 4,
+      "code": "P004",
+      "name": "PORTÁTIL ACER",
+      "description": "PC YOUTUBER AN515-43-ROG3",
+      "detalles": "AMD RYZEN 7, RAM 8 GB, 512 GB SSD, 15.6 in, NEGRO",
+      "price": 3799000,
+      "qty": 10,
+      "img": "https://panamericana.vteximg.com.br/arquivos/ids/401111-1600-1600/portatil-acer-ram-8gb-512gb-ssd-amd-ryzen-7-an515-43-rog3-15-6-negro-4710886149842.jpg?v=637641264687200000"
+    },
+    {
+      "id": 5,
+      "code": "P005",
+      "name": "PORTÁTIL LENOVO IDEAPAD",
+      "description": "PC ESTUDIANTE UNIVERSITARIO",
+      "detalles": "RYZEN 3, RAM 8 GB, 256 GB SSD, S145-14API, 14 in, GRIS",
+      "price": 1729000,
+      "qty": 10,
+      "img": "https://panamericana.vteximg.com.br/arquivos/ids/387459-1600-1600/portatil-lenovo-ideapad-ryzen-3-ram-8gb-256-gb-ssd-s145-14api-14-gris-194552699444.jpg?v=637522215477100000"
+    },
+    {
+      "code": "P006",
+      "name": "PC LENOVO",
+      "description": "PC GAMER",
+      "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD",
+      "price": "3900003",
+      "qty": "5",
+      "img": "https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDg3MTk2Nw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+      "id": 6
+    }
+  ]
+}
