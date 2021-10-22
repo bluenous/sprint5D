@@ -61,14 +61,14 @@
       "id": 6
     },
     {
-      "code": "P007",
-      "name": "PC LENOVO",
+      "code": "P008",
+      "name": "PC DELL 2",
       "description": "PC WEBCAM",
       "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD",
-      "price": "3750000",
-      "qty": "8",
-      "img": "https://images.unsplash.com/photo-1559163479-98365644374a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDg3MTI0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
-      "id": 7
+      "price": "65199979",
+      "qty": "13",
+      "img": "https://images.unsplash.com/photo-1609915189900-455ffd52e50f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDk0MjQxMQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+      "id": 8
     }
   ]
 }
