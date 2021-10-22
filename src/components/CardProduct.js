@@ -13,7 +13,7 @@ const CardProduct = ({
   handleOpenModal,
   setDataModal,
 }) => {
-  const URL = "https://sprint5d.herokuapp.com/";
+  const URL = "https://sprint5f.herokuapp.com/";
 
   const handleDelete = async () => {
     //console.log("eliminando", product.description);
