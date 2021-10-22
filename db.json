@@ -55,10 +55,20 @@
       "name": "PC LENOVO",
       "description": "PC GAMER",
       "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD",
-      "price": "3900003",
-      "qty": "5",
+      "price": "3870000",
+      "qty": "8",
       "img": "https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDg3MTk2Nw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
       "id": 6
+    },
+    {
+      "code": "P007",
+      "name": "PC LENOVO",
+      "description": "PC WEBCAM",
+      "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD",
+      "price": "3750000",
+      "qty": "8",
+      "img": "https://images.unsplash.com/photo-1559163479-98365644374a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDg3MTI0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+      "id": 7
     }
   ]
 }
