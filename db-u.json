@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "code": "U001",
+      "name": "Danny",
+      "mail": "Danny@gmail.com",
+      "state": "Activo",
+      "sales": 15,
+      "role": "Admin",
+      "perfil": "https://panamericana.vteximg.com.br/arquivos/ids/370054-1600-1600/194552520458-1.jpg?v=637414220748400000"
+    }
+  ]
+}

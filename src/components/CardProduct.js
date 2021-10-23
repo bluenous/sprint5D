@@ -1,6 +1,13 @@
 import React from "react";
 import axios from "axios";
-import { Card, ListGroup, ListGroupItem, Button } from "react-bootstrap";
+import {
+  Card,
+  ListGroup,
+  ListGroupItem,
+  Button,
+  Container,
+  Table,
+} from "react-bootstrap";
 import "./styles/styles.css";
 import Swal from "sweetalert2";
 import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
@@ -13,7 +20,9 @@ const CardProduct = ({
   handleOpenModal,
   setDataModal,
 }) => {
+
   const URL = "https://sprint5f.herokuapp.com/products";
+
 
   const handleDelete = async () => {
     //console.log("eliminando", product.description);
