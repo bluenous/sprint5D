@@ -14,11 +14,11 @@ const Router = () => {
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route exact path="/products" component={Products}></Route>
-        <Route exact path="/sales" component={ListSales} />
+        <Route exact path="/productos" component={Products}></Route>
+        <Route exact path="/ventas" component={ListSales} />
         <Route exact path="/newproduct" component={NewProduct}></Route>
         <Route exact path="/newsale" component={NewSale}></Route>
-        <Route exact path="/users" component={ListUsers}></Route>
+        <Route exact path="/usuarios" component={ListUsers}></Route>
       </Switch>
       <Footer />
     </BrowserRouter>

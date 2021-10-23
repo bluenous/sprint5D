@@ -41,7 +41,7 @@ const NewProduct = () => {
         showConfirmButton: true,
         //timer: 1500,
       });
-      history.push("/products");
+      history.push("/productos");
     } else {
       Swal.fire({
         position: "center",
