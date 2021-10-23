@@ -6,17 +6,23 @@ import CardProduct from "./CardProduct";
 import { Container, Row, Modal, Button, Form } from "react-bootstrap";
 import Swal from "sweetalert2";
 import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
+import TableUsers from "./users/TableUsers";
+import TableProducts from "./TableProducts";
+import TableSales from "./TableSales";
 
 //Este componente ListProducts importará los productos desde mi servidor con la base de datos
 
 const ListProducts = () => {
   const history = useHistory();
   const URL = "http://localhost:5000/products"; //almaceno en URL la dirección de mi endpoint para traer la data de los productos
+  //const URLU = "http://localhost:5000/users"; //almaceno en URL la dirección de mi endpoint para traer la data de los productos
 
   //escribo una función (getData) para traer los datos de manera asincrona con axios, y serán almacenados en una variable (response)
   const getData = async () => {
     const response = axios.get(URL);
-
+    //const responseusers = axios.get(URLU);
+    console.log(response);
+    //console.log(responseusers);
     return response;
   };
 
@@ -85,6 +91,22 @@ const ListProducts = () => {
 
   return (
     <Container className="mb-5">
+      <TableUsers />
+      <br />
+      <hr />
+      <TableProducts />
+      <br />
+      <hr />
+      <TableSales
+        // venta={venta}
+        setUpdateList={setUpdateList}
+        updateList={updateList}
+        handleCloseModal={handleCloseModal}
+        handleOpenModal={handleOpenModal}
+        setDataModal={setDataModal}
+      />
+      <br />
+      <hr />
       <Row>
         {list.map((producto, index) => (
           <CardProduct
