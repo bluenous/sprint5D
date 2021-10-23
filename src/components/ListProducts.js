@@ -11,8 +11,9 @@ import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
 
 const ListProducts = () => {
   const history = useHistory();
-  const URL = "http://localhost:5000/products"; //almaceno en URL la dirección de mi endpoint para traer la data de los productos
-  //const URLU = "http://localhost:5000/users"; //almaceno en URL la dirección de mi endpoint para traer la data de los productos
+
+  const URL = "https://sprint5f.herokuapp.com/products"; //almaceno en URL la dirección de mi endpoint para traer la data de los productos
+
 
   //escribo una función (getData) para traer los datos de manera asincrona con axios, y serán almacenados en una variable (response)
   const getData = async () => {

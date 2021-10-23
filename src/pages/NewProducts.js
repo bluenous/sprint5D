@@ -26,7 +26,10 @@ const NewProduct = () => {
     });
   };
 
-  const URL = "http://localhost:5000/products";
+
+  const URL = "https://sprint5f.herokuapp.com/products";
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
