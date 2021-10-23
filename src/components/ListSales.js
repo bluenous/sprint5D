@@ -1,14 +1,19 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container, Button, NavLink } from "react-bootstrap";
 import TableSales from "./TableSales";
+import { Link } from "react-router-dom";
 
-const ListProducts = () => {
+const ListSales = () => {
   return (
     <Container className="mb-5">
-      <Button />
+      <h2 className="text-center mt-3">Listado de Ventas</h2>
+      <hr />
+      <Link to="/newsale" className="btn btn-secondary mt-3 ms-3">
+        Nueva venta
+      </Link>
       <TableSales />
     </Container>
   );
 };
 
-export default ListProducts;
+export default ListSales;

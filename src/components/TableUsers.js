@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Table, Container, Button, Image, Row, Figure } from "react-bootstrap";
-import "../../components/styles/styles.css";
+import "../components/styles/styles.css";
 //import Swal from "sweetalert2";
 import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
 

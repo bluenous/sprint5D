@@ -69,6 +69,16 @@
       "qty": "13",
       "img": "https://images.unsplash.com/photo-1609915189900-455ffd52e50f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNDk0MjQxMQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
       "id": 8
+    },
+    {
+      "code": "P007",
+      "name": "PC LENOVO",
+      "description": "PC WEBCAM",
+      "detalles": "INTEL CORE I5, RAM 12 GB, 512 GB SSD",
+      "price": "6250000",
+      "qty": "4",
+      "img": "https://images.unsplash.com/photo-1494599948593-3dafe8338d71?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTYzNTAxMjU3MA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+      "id": 10
     }
   ],
   "users": [
@@ -107,7 +117,7 @@
     {
       "id": 2,
       "code": "V001",
-      "name": "PORTÁTIL SONY",
+      "name": "PORTÁTIL DELL",
       "description": "PC ESTUDIANTE BASIC",
       "detalles": "INTEL CORE I3, RAM 4 GB, DISCO DURO 1 TB HDD, S145-14IIL, 14 in, GRIS",
       "price": 1499000,
@@ -117,6 +127,18 @@
       "date": "Oct 20",
       "client": "C001",
       "seller": "U001"
+    },
+    {
+      "name": "PC LENOVO",
+      "description": "PC WEBCAM",
+      "price": "5240000",
+      "qty": "3",
+      "state": "Pendiente",
+      "date": "2021-10-22",
+      "client": "C002",
+      "seller": "U001",
+      "code": "V003",
+      "id": 3
     }
   ]
 }

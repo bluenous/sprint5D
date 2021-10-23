@@ -6,9 +6,6 @@ import CardProduct from "./CardProduct";
 import { Container, Row, Modal, Button, Form } from "react-bootstrap";
 import Swal from "sweetalert2";
 import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
-import TableUsers from "./users/TableUsers";
-import TableProducts from "./TableProducts";
-import TableSales from "./TableSales";
 
 //Este componente ListProducts importará los productos desde mi servidor con la base de datos
 
@@ -91,22 +88,6 @@ const ListProducts = () => {
 
   return (
     <Container className="mb-5">
-      <TableUsers />
-      <br />
-      <hr />
-      <TableProducts />
-      <br />
-      <hr />
-      <TableSales
-        // venta={venta}
-        setUpdateList={setUpdateList}
-        updateList={updateList}
-        handleCloseModal={handleCloseModal}
-        handleOpenModal={handleOpenModal}
-        setDataModal={setDataModal}
-      />
-      <br />
-      <hr />
       <Row>
         {list.map((producto, index) => (
           <CardProduct

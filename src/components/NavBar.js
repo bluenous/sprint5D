@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Form,
-  FormControl,
-  Button,
-  Nav,
-  Navbar,
-} from "react-bootstrap"; //Componentes usados en la construcción de la barra de navegación
+import Login from "./Login";
+import { Container, Nav, Navbar, Row } from "react-bootstrap"; //Componentes usados en la construcción de la barra de navegación
 import { Link } from "react-router-dom"; //Este componente redigire en la barra de direcciones a una ruta en Router sin recargar la App como con href
 
 const NavBar = () => {
@@ -23,20 +17,20 @@ const NavBar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Link to="/new" className="nav-link">
-              Agregar
+            <Link to="/products" className="nav-link">
+              Productos
+            </Link>
+            <Link to="/sales" className="nav-link">
+              Ventas
+            </Link>
+            <Link to="/users" className="nav-link">
+              Usuarios
             </Link>
           </Nav>
         </Navbar.Collapse>
-        <Form className="d-flex">
-          <FormControl
-            type="search"
-            placeholder="Buscar"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-secondary">Buscar</Button>
-        </Form>
+        <Row>
+          <Login />
+        </Row>
       </Container>
     </Navbar>
   );
