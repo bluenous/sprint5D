@@ -20,7 +20,7 @@ const CardProduct = ({
   handleOpenModal,
   setDataModal,
 }) => {
-  const URL = "http://localhost:5000/products";
+  const URL = "http://sprint5f.herokuapp.com/products";
 
   const handleDelete = async () => {
     //console.log("eliminando", product.description);

@@ -6,7 +6,7 @@ import "../components/styles/styles.css";
 import "@sweetalert2/theme-bootstrap-4/bootstrap-4.css";
 
 const TableProducts = () => {
-  const URL = "http://localhost:5000/products";
+  const URL = "http://sprint5f.herokuapp.com/products";
 
   const getData = async () => {
     const response = axios.get(URL);
