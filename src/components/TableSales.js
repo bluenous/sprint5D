@@ -8,7 +8,7 @@ import { useHistory } from "react-router-dom";
 
 const TableSales = () => {
   const history = useHistory();
-  const URL = "http://sprint5f.herokuapp.com/sales";
+  const URL = "https://sprint5f.herokuapp.com/sales";
 
   const getData = async () => {
     const response = await axios.get(URL);

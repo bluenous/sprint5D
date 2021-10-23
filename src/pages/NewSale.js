@@ -27,7 +27,7 @@ const NewSales = () => {
     });
   };
 
-  const URL = "http://sprint5f.herokuapp.com/sales";
+  const URL = "https://sprint5f.herokuapp.com/sales";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
